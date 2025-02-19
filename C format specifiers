@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+
+    int myOld = 17;
+    float myFloatNum = '5,99';
+    char myName = 'R';
+
+    printf("My old is %d and my name is %c, My float name is %f", myOld, myName, myFloatNum);
+}
