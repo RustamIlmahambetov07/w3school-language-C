@@ -8,3 +8,18 @@ int main() {
 
     printf("My old is %d and my name is %c, My float name is %f", myOld, myName, myFloatNum);
 }
+
+// second 
+
+#include <stdio.h>
+
+int main (){
+
+    int myNum = 5;
+    float myFloatNum = 5.99;
+    char myLetter = 'D';
+
+    printf("%d\n", myNum);
+    printf("%f\n", myFloatNum);
+    printf("%c\n", myLetter);
+}
