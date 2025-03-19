@@ -1,2 +1,2 @@
-# lerningprojecten
-lerning project
+w3school education
+learning language C
