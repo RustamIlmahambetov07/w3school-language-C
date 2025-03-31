@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(void)
+{
+    char message[] = "Good to see you,";
+    char fname[] = "John";
+
+    printf("%s %s!", message, fname);
+}
