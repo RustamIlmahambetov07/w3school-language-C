@@ -9,3 +9,18 @@ int main(void)
         printf("%c\n", carName[i]);
     }
 }
+
+//
+
+#include <stdio.h>
+
+int main(void)
+{
+    char carName[] = "Volvo";
+    int length = sizeof(carName) / sizeof(carName[0]);
+    int i;
+
+    for (i = 0; i < length; i++){
+        printf("%c\n", carName[i]);
+    }
+}
