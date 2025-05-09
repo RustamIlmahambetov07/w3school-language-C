@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void function() 
+{
+  char text1[] = "We are the so-called \"Vikings\" from the north"; 
+  char text2[] = "It\'s alright"; 
+  char text3[] = "The character \\ is called backslash"; 
+  char text4[] = "My name is Rustam \n I\'m 17 years old"; 
+  char text5[] = "a\tb\tc\t"; 
+  char text6[] = {'H', 'e', 'l', 'l', 'o', '\0'}; 
+  
+  printf("%s\n %s\n %s\n %s\n %s\n %s\n", text1, text2, text3, text4, text5, text6);
+  
+}
+
+int main()
+{
+    function();
+    return 0;
+}
