@@ -1,0 +1,34 @@
+#include <string.h>
+#include <stdio.h>
+
+void function()
+{
+  char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  printf("%d\n", strlen(alphabet));
+}
+
+// example
+
+void function1()
+{
+  char alphabet1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  printf("%d\n", strlen(alphabet1));
+  printf("%d\n", sizeof(alphabet1));
+}
+
+// example
+
+void function2()
+{
+  char alphabet2[50] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  printf("%d\n", strlen(alphabet2));
+  printf("%d", sizeof(alphabet2));
+}
+
+int main()
+{
+  function();
+  function1();
+  function2();
+  return 0;
+}
